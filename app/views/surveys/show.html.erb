@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @survey.name %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @survey.email %>
+</p>
+
+<p>
+  <b>Linkhash:</b>
+  <%= @survey.linkhash %>
+</p>
+
+
+<%= link_to 'Edit', edit_survey_path(@survey) %> |
+<%= link_to 'Back', surveys_path %>
